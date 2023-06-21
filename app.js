@@ -15,11 +15,9 @@ console.log("EXERCISE 2:\n==========\n");
 for(i = 1; i <= 100; i++) {
     if(i % 3 == 0 && i % 5 == 0) {
         console.log(i + " | FIZZBUZZ");
-    }
-    else if(i % 3 == 0) {
+    } else if(i % 3 == 0) {
         console.log(i + " | FIZZ");
-    }
-    else if(i % 5 == 0) {
+    } else if(i % 5 == 0) {
         console.log(i + " | BUZZ");
     }
 }
@@ -33,11 +31,9 @@ while(number <= 100) {
     number++;
     if(number % 3 == 0 && number % 5 == 0) {
         console.log(number + " | FIZZBUZZ");
-    }
-    else if(number % 3 == 0) {
+    } else if(number % 3 == 0) {
         console.log(number + " | FIZZ");
-    }
-    else if(number % 5 == 0) {
+    } else if(number % 5 == 0) {
         console.log(number + " | BUZZ");
     }
 }
@@ -50,11 +46,9 @@ do {
     number++;
     if(number % 3 == 0 && number % 5 == 0) {
         console.log(number + " | FIZZBUZZ");
-    }
-    else if(number % 3 == 0) {
+    } else if(number % 3 == 0) {
         console.log(number + " | FIZZ");
-    }
-    else if(number % 5 == 0) {
+    } else if(number % 5 == 0) {
         console.log(number + " | BUZZ");
     }
 } while(number <= 100)
@@ -100,7 +94,7 @@ for(i = 0; i <= n; i++) {
         break;
     }
 }
-if(foundValue == false) {
+if(!foundValue) {
         console.log("Did not find value");
 }
 
@@ -124,11 +118,9 @@ console.log("Buzz number: " + buzzDivisor);
 for(i = start; i <= num; i++) {
     if(i % fizzDivisor == 0 && i % buzzDivisor == 0) {
         console.log(i + " | FIZZBUZZ");
-    }
-    else if (i % fizzDivisor == 0) {
+    } else if (i % fizzDivisor == 0) {
         console.log(i + " | FIZZ");
-    }
-    else if (i % buzzDivisor == 0) {
+    } else if (i % buzzDivisor == 0) {
         console.log(i + " | BUZZ");
     }
 }
