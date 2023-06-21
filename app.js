@@ -116,14 +116,10 @@ let num = Math.round(Math.random() * (1000 - 1) + 1);
 let start = Math.round(Math.random() * (10 - 1) + 1);
 //creates random number bewteen 1 and 10
 
-
 console.log("Start number: " + start);
 console.log("End number: " + num);
 console.log("Fizz number: " + fizzDivisor);
 console.log("Buzz number: " + buzzDivisor);
-
-
-
 
 for(i = start; i <= num; i++) {
     if(i % fizzDivisor == 0 && i % buzzDivisor == 0) {
